@@ -14,4 +14,7 @@ def n_root(number, power):
 if __name__ == "__main__" :
     number = float(input("Введите число: "))
     power = int(input("Введите степень корня: "))
-    n_root(number, power)
+    if(number > 0):
+        n_root(number, power)
+    else:
+        print("Введите число больше нуля...")
